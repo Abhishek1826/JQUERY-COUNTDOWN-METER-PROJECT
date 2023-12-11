@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+
+}
+.container{
+    background-image: -webkit-radial-gradient(rgb(42, 54, 54),rgb(10, 10, 84),rgb(45, 45, 188),rgb(6, 116, 116),rgb(2, 78, 78));
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+h1{
+    font-size: 4em;
+}
+h1 span{
+    font-size: 3em;
+}
+#timer{
+    display:flex;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#timer div{
+    position: relative;
+    width: 120px;
+    padding: 20px;
+    margin: 0 5px;
+    font-size: 1.5em;
+    background: white;
+    color: black;
+    
+}
+#timer div:last-child{
+    background: rgb(117, 13, 146);
+    color: white;
+}
